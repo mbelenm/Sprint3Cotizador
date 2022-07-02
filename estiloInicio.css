@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url(/imagenes/Cloudy.svg) !important;
+  background-image: url(Cloudy.svg) !important;
   background-size: cover;
 }
 
@@ -35,6 +35,29 @@ nav button {
 .offcanvas-title {
   color: grey;
   letter-spacing: 0.2em;
+}
+
+
+#divisas a {
+  color: white:
+  padding: 5px 2px;
+  text-decoration: none;
+  display: block;
+}
+
+
+#mostrardivisas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  background-image: linear-gradient(to right, #d7d8eb, #21b4f3);
+}
+
+#divisas a:hover {
+  background-color: #ddd;
 }
 
 
